@@ -6,15 +6,10 @@ import io.restassured.response.Response;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
-
 import static io.restassured.RestAssured.given;
 
 public class Authentication {
-  /*  public static void main(String[] args) {
-        String guncelToken=generateToken();
-        System.out.println(guncelToken);
-    }*/
+
     public static String generateToken() {
 
 
